@@ -1,0 +1,162 @@
+* {
+  box-sizing: border-box;
+}
+
+/* Body */
+body {
+  font-family: Arial;
+  margin: 0;
+}
+
+/* Header */
+.header {
+  padding: 40px;
+  text-align: center;
+  background: #3282b8;
+  color: white;
+}
+
+/* Barre de navigation */
+.navbar {
+  display: flex;
+  background-color: #e8947d;
+  width: 100%;
+  position: sticky;
+  top: 0;
+}
+
+.navbar a {
+  color: white;
+  padding: 14px 20px;
+  text-decoration: none;
+  text-align: center;
+  display: block;
+}
+.navbar a:hover {
+  background-color: #e8947d;
+  color: gray; /*Couleur lorsque l'on passe la souris sur l'un des article */
+}
+
+.sous{
+    display: none;
+    background-color: #333;
+    position: absolute;
+    width: 100%;
+    z-index: 1000;
+}
+.navbar > ul li:hover .sous{
+    display: block;
+}
+.navbar ul{
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+}
+.navbar ul li{
+    float: left;
+    width: 100%;
+    text-align: left;
+    position: relative;
+}
+.sous a{
+    padding: 10px;
+}
+.deroulant > a::after{
+    content:" ▼ ";
+    font-size: 18px;
+}
+
+/* Main column */
+.main {
+  background-color: #333; 
+  padding-left: 20px;
+  padding-right: 20px;
+  text-align: justify;
+}
+
+/* FullArticles */
+.FullArticle {
+  text-align: justify;
+  background-color: #f1f1f1; 
+  padding: 10px 10px;
+}
+
+/* Articles */
+.Article {
+  text-align: justify;
+  background-color: #f1f1f1; 
+  padding: 5px 10px;
+  overflow-y: hidden;
+  display: flex;
+}
+.Article a {
+  color: black;
+  text-decoration: none;
+  text-align: center;
+  vertical-align : middle;
+  display:block;
+  padding: 5px 5px;
+}
+.Article a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Left & Right Row */
+.LeftRow {
+  text-align: justify;
+  background-color: #f1f1f1; 
+  float: left;
+  padding: 5px 5px;
+  flex: 20%;
+}
+.LeftRow img {
+  max-width: 80%;
+  vertical-align: middle;
+}
+.RightRow {
+  text-align: justify;
+  background-color: #f1f1f1; 
+  float: right;
+  padding: 5px 5px;
+  flex: 80%;
+}
+
+/* Footer */
+.footer {
+  padding: 1px;
+  text-align: center;
+  background: #333;
+  color: white;
+}
+.footer h3 {
+  color: white;
+  text-align: center;
+  font-size: 17px;
+}
+
+.footer p {
+  color: #DCDCDC;
+  text-align: center;
+  font-size: 12px;
+}
+
+	
+
+/* Responsive layout - when the screen is less than 700px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 700px) {
+  .row, .navbar {   
+    flex-direction: column;
+  }
+}
+@media screen and (max-width: 270px) {
+  .row, .navbar {   
+      flex-direction: column;
+  }
+  .footer h3, .footer h2, .deroulant, .Article, .header p, .main h1 {
+	  font-size: 16px;
+  }
+  .main p {
+	  font-size: 12px;
+  }
+}
