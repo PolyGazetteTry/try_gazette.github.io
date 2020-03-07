@@ -1,5 +1,6 @@
 /************************************/
 /* Feuille de style Alligator NEWS  */
+/* Copyright :                      */
 /* PERCEREAU Lucas                  */
 /* LEPINE Thomas                    */
 /************************************/
@@ -25,6 +26,20 @@ body {
   background: #004875;
   display: flex;
 }
+
+.titre {
+  flex: 60%;
+  color: white;
+  text-align: center;
+  margin: auto;
+  padding: 0px 0px;
+}
+.titre h1{
+  text-align: center;
+  font-size: 50px;
+  font-family: Arno Pro, Tribun ADF Std, serif;
+  text-shadow: black 0.1em 0.1em 0.1em;
+}
 .LogoPolytech {
   float: left;
   flex: 20%;
@@ -35,18 +50,7 @@ body {
   max-height: 80%;
   vertical-align: middle;
 }
-.titre {
-  flex: 60%;
-  color: white;
-  text-align: center;
-  margin: auto;
-}
-.titre h1{
-  text-align: center;
-  font-size: 50px;
-  font-family: Arno Pro, Tribun ADF Std, serif;
-  text-shadow: black 0.1em 0.1em 0.1em;
-}
+
 .LogoAlligator {
   float: right;
   flex: 20%;
@@ -54,7 +58,7 @@ body {
 }
 .LogoAlligator img{
   max-width: 80%;
-  max-height: 80%; 
+  max-height: 80%;
   vertical-align: middle;
 }
 /**********/
@@ -72,14 +76,14 @@ body {
 
 .navbar a {
   color: black;
-  padding: 14px 20px;
+  padding: 12px 24px;
   text-decoration: none;
   text-align: center;
   display: block;
 }
 .navbar a:hover {
   background-color: #9C5744;
-  color: #E8B9AC; 
+  color: #E8B9AC;
 }
 /***********************/
 /***********************/
@@ -123,7 +127,7 @@ body {
 /* Colonne principale de l'index */
 /*********************************/
 .main {
-  background-color: #004875/*#333*/;  
+  background-color: #004875; /* Fond du site*/
   padding-left: 20px;
   padding-right: 20px;
   text-align: justify;
@@ -137,8 +141,8 @@ body {
 /*************************/
 .Article {
   text-align: justify;
-  background-color: #f1f1f1; 
-  padding: 5px 10px;
+  background-color: #f1f1f1;
+  padding: 4px 5px;
   overflow-y: hidden;
   display: flex;
 }
@@ -147,8 +151,8 @@ body {
   text-decoration: none;
   text-align: center;
   vertical-align : middle;
-  display:block;
-  padding: 5px 5px;
+  display: block;
+  padding: 4px 2px;
 }
 .Article a:hover {
   background-color: #ddd;
@@ -157,9 +161,9 @@ body {
 /*************************/
 .LeftRow {
   text-align: justify;
-  background-color: #f1f1f1; 
+  background-color: #f1f1f1;
   float: left;
-  padding: 5px 5px;
+  padding: 4px 2px;
   flex: 20%;
 }
 .LeftRow img {
@@ -168,9 +172,9 @@ body {
 }
 .RightRow {
   text-align: justify;
-  background-color: #f1f1f1; 
+  background-color: #f1f1f1;
   float: right;
-  padding: 5px 5px;
+  padding: 10px 21px;
   flex: 80%;
 }
 /*************************/
@@ -181,7 +185,7 @@ body {
 /********************/
 .FullArticle {
   text-align: justify;
-  background-color: #f1f1f1; 
+  background-color: #f1f1f1;
   padding: 10px 10px;
 }
 /********************/
@@ -218,25 +222,25 @@ body {
   font-size: 11px;
 }
 /**********/
-/**********/	
-	
+/**********/
+
 /*********************/
 /* Responsive layout */
 /*********************/
 @media screen and (max-width: 860px) {
-  .row, .navbar {   
+  .row, .navbar {
     flex-direction: column;
   }
 }
 
 @media screen and (min-width: 860px){
 	.navbar {
-	 position: sticky; 
+	 position: sticky;
   }
 }
-	
+
 @media screen and (max-width: 300px) {
-  .row, .navbar {   
+  .row, .navbar {
       flex-direction: column;
   }
   .footer h3, .footer h2, .deroulant, .Article, .header p, .main h1 {
