@@ -10,10 +10,16 @@ body {
 
 /* Header */
 .header {
-  padding: 40px;
+  padding: 15px;
   text-align: center;
-  background: #3282b8;
+  background: #004875;
   color: white;
+}
+
+.header h1{
+	font-size: 50px;
+	font-family: Arno Pro, Tribun ADF Std, serif;
+	text-shadow: black 0.1em 0.1em 0.1em;
 }
 
 /* Barre de navigation */
@@ -26,20 +32,20 @@ body {
 }
 
 .navbar a {
-  color: white;
+  color: black;
   padding: 14px 20px;
   text-decoration: none;
   text-align: center;
   display: block;
 }
 .navbar a:hover {
-  background-color: #e8947d;
-  color: gray; /*Couleur lorsque l'on passe la souris sur l'un des article */
+  background-color: #9C5744;
+  color: #E8B9AC; /*Couleur lorsque l'on passe la souris sur l'un des article */
 }
 
 .sous{
     display: none;
-    background-color: #333;
+    background-color: #e8947d;
     position: absolute;
     width: 100%;
     z-index: 1000;
@@ -140,6 +146,15 @@ body {
   text-align: center;
   font-size: 12px;
 }
+
+/*hr {
+    border: none;
+    border-top: 3px double #333;
+    color: #000000;
+    overflow: visible;
+    text-align: center;
+    height: 6px;
+}*/
 
 	
 
