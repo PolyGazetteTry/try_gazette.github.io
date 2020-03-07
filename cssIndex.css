@@ -12,7 +12,7 @@
 /* Body */
 /*********/
 body {
-  font-family: Arial;
+  font-family: Calibri, Arial;
   margin: 0;
 }
 /*********/
@@ -123,7 +123,7 @@ body {
 /* Colonne principale de l'index */
 /*********************************/
 .main {
-  background-color: #333; 
+  background-color: #004875/*#333*/;  
   padding-left: 20px;
   padding-right: 20px;
   text-align: justify;
@@ -191,20 +191,31 @@ body {
 /* Footer */
 /**********/
 .footer {
-  padding: 1px;
+  padding: 2px;
   text-align: center;
   background: #333;
-  color: white;
+  color:  gray;
+  position: absolute;
+  width: 100%;
+  left: 0;
 }
-.footer h3 {
+
+.footer h2 {
   color: white;
   text-align: center;
-  font-size: 17px;
+  font-size: 26px;
 }
+
+.footer h4 {
+  color: white;
+  text-align: center;
+  font-size: 14px;
+}
+
 .footer p {
   color: #DCDCDC;
   text-align: center;
-  font-size: 12px;
+  font-size: 11px;
 }
 /**********/
 /**********/	
