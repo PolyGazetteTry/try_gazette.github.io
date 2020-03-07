@@ -83,10 +83,18 @@ body {
 
 .navbar a {
   color: black;
-  padding: 12px 24px;
+  padding: 12px 36px;
   text-decoration: none;
   text-align: center;
   display: block;
+}
+.navbar hr {
+  color: #004875;
+  background-color: #004875;
+  height: 1px;
+  border: 0;
+  margin-top: 2px;
+  margin-bottom: 2px;
 }
 .navbar a:hover {
   background-color: #9C5744;
@@ -165,6 +173,7 @@ body {
   background-color: #ddd;
   color: black;
 }
+
 /*************************/
 .LeftRow {
   text-align: justify;
@@ -194,6 +203,15 @@ body {
   text-align: justify;
   background-color: #f1f1f1;
   padding: 10px 10px;
+}
+.FullArticle hr {
+  color: #004875;
+  background-color: #004875;
+  height: 2px;
+  border: 0;
+  margin-bottom: 10px;
+  margin-left: 24px;
+  margin-right: 24px;
 }
 /********************/
 /********************/
