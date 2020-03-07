@@ -22,31 +22,38 @@ body {
 /* Header */
 /**********/
 .header {
-  padding: 15px;
-  text-align: center;
   background: #004875;
-  color: white;
-}
-.header h1{
-	font-size: 50px;
-	font-family: Arno Pro, Tribun ADF Std, serif;
-	text-shadow: black 0.1em 0.1em 0.1em;
+  display: flex;
 }
 .LogoPolytech {
-  text-align: left; 
-  padding-right: 20px;
+  float: left;
+  flex: 20%;
 }
 .LogoPolytech img{
-  height: 16%;
-  width: 16%;
+  max-width: 80%;
+  height: auto;
+  vertical-align: middle;
+}
+.titre {
+  flex: 60%;
+  color: white;
+  float: center;
+  text-align: center;
+}
+.titre h1{
+  text-align: center;
+  font-size: 50px;
+  font-family: Arno Pro, Tribun ADF Std, serif;
+  text-shadow: black 0.1em 0.1em 0.1em;
 }
 .LogoAlligator {
-  text-align: right; 
-  padding-right: 20px;
+  float: right;
+  flex: 20%;
 }
 .LogoAlligator img{
-  height: 16%;
-  width: 16%;
+  max-width: 80%;
+  height: auto; 
+  vertical-align: middle;
 }
 /**********/
 /**********/
