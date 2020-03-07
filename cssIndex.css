@@ -28,17 +28,18 @@ body {
 .LogoPolytech {
   float: left;
   flex: 20%;
+  margin: auto;
 }
 .LogoPolytech img{
   max-width: 80%;
-  height: auto;
+  max-height: 80%;
   vertical-align: middle;
 }
 .titre {
   flex: 60%;
   color: white;
-  float: center;
   text-align: center;
+  margin: auto;
 }
 .titre h1{
   text-align: center;
@@ -49,10 +50,11 @@ body {
 .LogoAlligator {
   float: right;
   flex: 20%;
+  margin: auto;
 }
 .LogoAlligator img{
   max-width: 80%;
-  height: auto; 
+  max-height: 80%; 
   vertical-align: middle;
 }
 /**********/
