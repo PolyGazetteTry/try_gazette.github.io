@@ -108,32 +108,32 @@ body {
 /*   Menu deroulant    */
 /***********************/
 .sous{
-    display: none;
-    background-color: #e8947d;
-    position: absolute;
-    width: 100%;
-    z-index: 1000;
+  display: none;
+  background-color: #e8947d;
+  position: absolute;
+  width: 100%;
+  z-index: 1000;
 }
 .navbar > ul li:hover .sous{
-    display: block;
+  display: block;
 }
 .navbar ul{
-    list-style-type: none;
-    margin: 0px;
-    padding: 0px;
+  list-style-type: none;
+  margin: 0px;
+  padding: 0px;
 }
 .navbar ul li{
-    float: left;
-    width: 100%;
-    text-align: left;
-    position: relative;
+  float: left;
+  width: 100%;
+  text-align: left;
+  position: relative;
 }
 .sous a{
-    padding: 10px;
+  padding: 10px;
 }
 .deroulant > a::after{
-    content:" ▼ ";
-    font-size: 18px;
+  content:" ▼ ";
+  font-size: 18px;
 }
 /***********************/
 /***********************/
@@ -172,6 +172,19 @@ body {
 .Article a:hover {
   background-color: #ddd;
   color: black;
+}
+.plop_new {
+  text-decoration: blink;
+  text-shadow: black 0.01em 0.05em 0.05em;
+  color: red;
+  float: right;
+  margin-top: 0px;
+  margin-right: 10px;
+  padding-bottom: 5px;
+  text-indent: 0px;
+  text-emphasis-color: red;
+  text-rendering: auto;
+  font-style: italic;
 }
 
 /*************************/
@@ -252,28 +265,31 @@ body {
 /*********************/
 /* Responsive layout */
 /*********************/
-@media screen and (max-width: 860px) {
-  .row, .navbar {
-    flex-direction: column;
-  }
+@media screen and (max-width: 860px) { /* Resolution d'un  portable*/
+.row, .navbar {
+  flex-direction: column;
+}
+.titre h1 {
+  font-size: 30px;
+}
 }
 
-@media screen and (min-width: 860px){
-	.navbar {
-	 position: sticky;
-  }
+@media screen and (min-width: 860px){ /* Resolution d'une fenêtre sur un PC*/
+.navbar {
+  position: sticky;
+}
 }
 
-@media screen and (max-width: 300px) {
-  .row, .navbar {
-      flex-direction: column;
-  }
-  .footer h3, .footer h2, .deroulant, .Article, .header p, .main h1 {
-	  font-size: 16px;
-  }
-  .main p {
-	  font-size: 12px;
-  }
+@media screen and (max-width: 400px) { /* Resolution d'une petite fenêtre / petit écran */
+.row, .navbar {
+  flex-direction: column;
+}
+.footer h3, .footer h2, .deroulant, .Article, .header p, .main h1 {
+  font-size: 16px;
+}
+.main p {
+  font-size: 12px;
+}
 }
 /*********************/
 /*********************/
