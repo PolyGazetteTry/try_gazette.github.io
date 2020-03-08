@@ -16,7 +16,6 @@
   padding-left: 7px;
   flex: 45%;
   display: flex;
-  align-items: center;
 }
 .LeftRow img {
   max-width: 80%;
@@ -105,6 +104,9 @@
 @media screen and (min-width: 860px){ /* Resolution d'une fenêtre sur un PC*/
   .navbar {
     position: sticky;
+  }
+  .LeftRow {
+    align-items: center;
   }
   .mainArticle {
     padding: 20px;
