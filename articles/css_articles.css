@@ -72,11 +72,12 @@
     font-size: 30px;
   }
   .Article {
-    margin: 0 auto;
     margin: 10px;
     margin-bottom: 20px;
-    /*flex-wrap: wrap;
-    display: flex;*/
+    display: inline;
+  }
+  .mainArticle {
+    padding: 0 auto;
   }
 }
 @media screen and (min-width: 860px){ /* Resolution d'une fenêtre sur un PC*/
@@ -84,8 +85,8 @@
     position: sticky;
   }
   .Article {
-    margin: 0 auto;
     margin: 10px;
+    margin: 0 auto;
     margin-bottom: 20px;
   }
 }
