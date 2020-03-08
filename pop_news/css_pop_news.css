@@ -1,0 +1,86 @@
+/************************************/
+/* Feuille de style Alligator NEWS  */
+/* Copyright :                      */
+/* PERCEREAU Lucas                  */
+/* LÉPINE Thomas                    */
+/************************************/
+
+.FullEdition {
+  text-align: justify;
+  background-color: #f1f1f1;
+  padding: 10px 10px;
+}
+.FullEdition hr {
+  color: #004875;
+  background-color: #004875;
+  height: 2px;
+  border: 0;
+  margin-bottom: 10px;
+  margin-left: 24px;
+  margin-right: 24px;
+}
+/*************************/
+/* Présentation Editions */
+/*************************/
+.Edition {
+  text-align: justify;
+  background-color: #f1f1f1;
+  padding: 4px 5px;
+  overflow-y: hidden;
+  display: flex;
+}
+.Edition a {
+  color: black;
+  text-decoration: none;
+  text-align: center;
+  vertical-align : middle;
+  display: block;
+  padding: 4px 2px;
+}
+.Edition a:hover {
+  background-color: #ddd;
+  color: black;
+}
+.plop_new {
+  text-decoration: blink;
+  text-shadow: black 0.01em 0.05em 0.05em;
+  color: red;
+  float: right;
+  margin-top: 0px;
+  margin-right: 10px;
+  padding-bottom: 5px;
+  text-indent: 0px;
+  text-emphasis-color: red;
+  text-rendering: auto;
+  font-style: italic;
+}
+
+/*********************/
+/* Responsive layout */
+/*********************/
+@media screen and (max-width: 860px) { /* Resolution d'un  portable*/
+  .row, .navbar {
+    flex-direction: column;
+  }
+  .titre h1 {
+    font-size: 30px;
+  }
+}
+@media screen and (min-width: 860px){ /* Resolution d'une fenêtre sur un PC*/
+  .navbar {
+    position: sticky;
+  }
+}
+@media screen and (max-width: 400px) { /* Resolution d'une petite fenêtre / petit écran */
+  .row, .navbar {
+    flex-direction: column;
+  }
+  .footer h3, .footer h2, .deroulant, .Edition, .header p, .main h1 {
+    font-size: 16px;
+  }
+  .main p {
+    font-size: 12px;
+  }
+}
+/*********************/
+/*********************/

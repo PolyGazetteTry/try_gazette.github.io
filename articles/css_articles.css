@@ -1,0 +1,93 @@
+/************************************/
+/* Feuille de style Alligator NEWS  */
+/* Copyright :                      */
+/* PERCEREAU Lucas                  */
+/* LÉPINE Thomas                    */
+/************************************/
+
+/*************************/
+/*************************/
+
+/*************************/
+/* Présentation Articles */
+/*************************/
+.Article {
+  text-align: justify;
+  background-color: #f1f1f1;
+  display: flex;
+  min-width: 48%;
+  max-width: 48%;
+}
+.Article a {
+  color: black;
+  text-decoration: none;
+  text-align: center;
+  vertical-align : middle;
+  display: block;
+  padding: 4px 1.5px;
+}
+.Article a:hover {
+  background-color: #ddd;
+  color: black;
+}
+/*************************/
+/*************************/
+
+/********************/
+/* Articles complet */
+/********************/
+.mainArticle {
+  background-color: #004875;
+  padding: 20px;
+  text-align: justify;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+.FullArticle {
+  text-align: justify;
+  background-color: #f1f1f1;
+  padding: 10px 10px;
+}
+.FullArticle hr {
+  color: #004875;
+  background-color: #004875;
+  height: 2px;
+  border: 0;
+  margin-bottom: 10px;
+  margin-left: 24px;
+  margin-right: 24px;
+}
+/********************/
+/********************/
+
+/*********************/
+/* Responsive layout */
+/*********************/
+@media screen and (max-width: 860px) { /* Resolution d'un  portable*/
+  .row, .navbar {
+    flex-direction: column;
+  }
+  .titre h1 {
+    font-size: 30px;
+  }
+  .Article {
+    margin: 0 auto;
+    margin: 10px;
+    margin-bottom: 20px;
+    /*flex-wrap: wrap;
+    display: flex;*/
+  }
+}
+@media screen and (min-width: 860px){ /* Resolution d'une fenêtre sur un PC*/
+  .navbar {
+    position: sticky;
+  }
+  .Article {
+    margin: 0 auto;
+    margin: 10px;
+    margin-bottom: 20px;
+  }
+}
+/*********************/
+/*********************/

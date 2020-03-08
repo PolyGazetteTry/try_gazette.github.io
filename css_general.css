@@ -2,7 +2,7 @@
 /* Feuille de style Alligator NEWS  */
 /* Copyright :                      */
 /* PERCEREAU Lucas                  */
-/* LEPINE Thomas                    */
+/* LÉPINE Thomas                    */
 /************************************/
 
 * {
@@ -142,58 +142,13 @@ body {
 /* Colonne principale de l'index */
 /*********************************/
 .mainEdition {
-  background-color: #004875; 
+  background-color: #004875;
   padding-left: 20px;
   padding-right: 20px;
   text-align: justify;
 }
-.mainArticle {
-  background-color: #004875; 
-  padding: 20px;
-  text-align: justify;
-  width: 100%;
-  display: flex;
-  flex-wrap: wrap;
-}
 /*********************************/
 /*********************************/
-
-
-/*************************/
-/* Présentation Editions */
-/*************************/
-.Edition {
-  text-align: justify;
-  background-color: #f1f1f1;
-  padding: 4px 5px;
-  overflow-y: hidden;
-  display: flex;
-}
-.Edition a {
-  color: black;
-  text-decoration: none;
-  text-align: center;
-  vertical-align : middle;
-  display: block;
-  padding: 4px 2px;
-}
-.Edition a:hover {
-  background-color: #ddd;
-  color: black;
-}
-.plop_new {
-  text-decoration: blink;
-  text-shadow: black 0.01em 0.05em 0.05em;
-  color: red;
-  float: right;
-  margin-top: 0px;
-  margin-right: 10px;
-  padding-bottom: 5px;
-  text-indent: 0px;
-  text-emphasis-color: red;
-  text-rendering: auto;
-  font-style: italic;
-}
 /*************************/
 .LeftRow {
   text-align: justify;
@@ -216,51 +171,15 @@ body {
 /*************************/
 /*************************/
 
-/*************************/
-/* Présentation Articles */
-/*************************/
-.Article {
-  text-align: justify;
-  background-color: #f1f1f1;
-  display: flex;
-  min-width: 48%;
-  max-width: 48%;
-  margin: 5px;
+.plop_new {
+  text-shadow: black 0.01em 0.05em 0.05em;
+  color: red;
+  float: right;
+  margin-right: 10px;
+  padding-bottom: 5px;
+  text-rendering: auto;
+  font-style: italic;
 }
-.Article a {
-  color: black;
-  text-decoration: none;
-  text-align: center;
-  vertical-align : middle;
-  display: block;
-  padding: 4px 2px;
-}
-.Article a:hover {
-  background-color: #ddd;
-  color: black;
-}
-/*************************/
-/*************************/
-
-/********************/
-/* Articles complet */
-/********************/
-.FullArticle {
-  text-align: justify;
-  background-color: #f1f1f1;
-  padding: 10px 10px;
-}
-.FullArticle hr {
-  color: #004875;
-  background-color: #004875;
-  height: 2px;
-  border: 0;
-  margin-bottom: 10px;
-  margin-left: 24px;
-  margin-right: 24px;
-}
-/********************/
-/********************/
 
 /**********/
 /* Footer */
@@ -309,17 +228,6 @@ body {
 @media screen and (min-width: 860px){ /* Resolution d'une fenêtre sur un PC*/
   .navbar {
     position: sticky;
-  }
-}
-@media screen and (max-width: 400px) { /* Resolution d'une petite fenêtre / petit écran */
-  .row, .navbar {
-    flex-direction: column;
-  }
-  .footer h3, .footer h2, .deroulant, .Edition, .header p, .main h1 {
-    font-size: 16px;
-  }
-  .main p {
-    font-size: 12px;
   }
 }
 /*********************/
