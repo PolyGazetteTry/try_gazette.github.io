@@ -141,27 +141,35 @@ body {
 /*********************************/
 /* Colonne principale de l'index */
 /*********************************/
-.main {
-  background-color: #004875; /* Fond du site*/
+.mainEdition {
+  background-color: #004875; 
   padding-left: 20px;
   padding-right: 20px;
   text-align: justify;
+}
+.mainArticle {
+  background-color: #004875; 
+  padding: 20px;
+  text-align: justify;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
 }
 /*********************************/
 /*********************************/
 
 
 /*************************/
-/* Resumé articles index */
+/* Présentation Editions */
 /*************************/
-.Article {
+.Edition {
   text-align: justify;
   background-color: #f1f1f1;
   padding: 4px 5px;
   overflow-y: hidden;
   display: flex;
 }
-.Article a {
+.Edition a {
   color: black;
   text-decoration: none;
   text-align: center;
@@ -169,7 +177,7 @@ body {
   display: block;
   padding: 4px 2px;
 }
-.Article a:hover {
+.Edition a:hover {
   background-color: #ddd;
   color: black;
 }
@@ -186,7 +194,6 @@ body {
   text-rendering: auto;
   font-style: italic;
 }
-
 /*************************/
 .LeftRow {
   text-align: justify;
@@ -205,6 +212,32 @@ body {
   float: right;
   padding: 10px 21px;
   flex: 80%;
+}
+/*************************/
+/*************************/
+
+/*************************/
+/* Présentation Articles */
+/*************************/
+.Article {
+  text-align: justify;
+  background-color: #f1f1f1;
+  display: flex;
+  min-width: 48%;
+  max-width: 48%;
+  margin: 5px;
+}
+.Article a {
+  color: black;
+  text-decoration: none;
+  text-align: center;
+  vertical-align : middle;
+  display: block;
+  padding: 4px 2px;
+}
+.Article a:hover {
+  background-color: #ddd;
+  color: black;
 }
 /*************************/
 /*************************/
@@ -282,7 +315,7 @@ body {
   .row, .navbar {
     flex-direction: column;
   }
-  .footer h3, .footer h2, .deroulant, .Article, .header p, .main h1 {
+  .footer h3, .footer h2, .deroulant, .Edition, .header p, .main h1 {
     font-size: 16px;
   }
   .main p {
