@@ -266,30 +266,28 @@ body {
 /* Responsive layout */
 /*********************/
 @media screen and (max-width: 860px) { /* Resolution d'un  portable*/
-.row, .navbar {
-  flex-direction: column;
+  .row, .navbar {
+    flex-direction: column;
+  }
+  .titre h1 {
+    font-size: 30px;
+  }
 }
-.titre h1 {
-  font-size: 30px;
-}
-}
-
 @media screen and (min-width: 860px){ /* Resolution d'une fenêtre sur un PC*/
-.navbar {
-  position: sticky;
+  .navbar {
+    position: sticky;
+  }
 }
-}
-
 @media screen and (max-width: 400px) { /* Resolution d'une petite fenêtre / petit écran */
-.row, .navbar {
-  flex-direction: column;
-}
-.footer h3, .footer h2, .deroulant, .Article, .header p, .main h1 {
-  font-size: 16px;
-}
-.main p {
-  font-size: 12px;
-}
+  .row, .navbar {
+    flex-direction: column;
+  }
+  .footer h3, .footer h2, .deroulant, .Article, .header p, .main h1 {
+    font-size: 16px;
+  }
+  .main p {
+    font-size: 12px;
+  }
 }
 /*********************/
 /*********************/
