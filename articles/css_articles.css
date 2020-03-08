@@ -5,6 +5,33 @@
 /* LÉPINE Thomas                    */
 /************************************/
 
+/*********************************/
+/*********************************/
+/*************************/
+
+.LeftRow {
+  text-align: justify;
+  background-color: #f1f1f1;
+  float: left;
+  padding-left: 7px;
+  flex: 45%;
+  display: flex;
+  align-items: center;
+}
+.LeftRow img {
+  max-width: 80%;
+  vertical-align: middle;
+}
+.LeftRow h3 {
+  font-size: 20px;
+}
+.RightRow {
+  text-align: justify;
+  background-color: #f1f1f1;
+  float: right;
+  padding: 10px 18px;
+  flex: 65%;
+}
 /*************************/
 /*************************/
 
@@ -15,8 +42,6 @@
   text-align: justify;
   background-color: #f1f1f1;
   display: flex;
-  min-width: 48%;
-  max-width: 48%;
 }
 .Article a {
   color: black;
@@ -38,11 +63,7 @@
 /********************/
 .mainArticle {
   background-color: #004875;
-  padding: 20px;
   text-align: justify;
-  width: 100%;
-  display: flex;
-  flex-wrap: wrap;
 }
 .FullArticle {
   text-align: justify;
@@ -71,20 +92,29 @@
   .titre h1 {
     font-size: 30px;
   }
-  .Article {
-    margin: 10px;
-    margin-bottom: 20px;
-    display: inline;
-  }
   .mainArticle {
-    padding: 0 auto;
+    padding-left: 20px;
+    padding-right: 20px;
+    /*padding-top: 20px;
+    padding-bottom: 20px;*/
+  }
+  .Article {
+    padding: 4px 5px;
   }
 }
 @media screen and (min-width: 860px){ /* Resolution d'une fenêtre sur un PC*/
   .navbar {
     position: sticky;
   }
+  .mainArticle {
+    padding: 20px;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+  }
   .Article {
+    min-width: 48%;
+    max-width: 48%;
     margin: 10px;
     margin: 0 auto;
     margin-bottom: 20px;

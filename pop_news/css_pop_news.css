@@ -5,6 +5,31 @@
 /* LÉPINE Thomas                    */
 /************************************/
 
+/*********************************/
+/*********************************/
+/*************************/
+.LeftRow {
+  text-align: justify;
+  background-color: #f1f1f1;
+  float: left;
+  padding: 4px 2px;
+  flex: 30%;
+}
+.LeftRow img {
+  max-width: 80%;
+  vertical-align: middle;
+}
+.RightRow {
+  text-align: justify;
+  background-color: #f1f1f1;
+  float: right;
+  padding: 10px 21px;
+  flex: 70%;
+}
+
+/*************************/
+/*************************/
+
 .FullEdition {
   text-align: justify;
   background-color: #f1f1f1;
@@ -26,7 +51,6 @@
   text-align: justify;
   background-color: #f1f1f1;
   padding: 4px 5px;
-  overflow-y: hidden;
   display: flex;
 }
 .Edition a {
@@ -41,19 +65,7 @@
   background-color: #ddd;
   color: black;
 }
-.plop_new {
-  text-decoration: blink;
-  text-shadow: black 0.01em 0.05em 0.05em;
-  color: red;
-  float: right;
-  margin-top: 0px;
-  margin-right: 10px;
-  padding-bottom: 5px;
-  text-indent: 0px;
-  text-emphasis-color: red;
-  text-rendering: auto;
-  font-style: italic;
-}
+
 
 /*********************/
 /* Responsive layout */
@@ -69,17 +81,6 @@
 @media screen and (min-width: 860px){ /* Resolution d'une fenêtre sur un PC*/
   .navbar {
     position: sticky;
-  }
-}
-@media screen and (max-width: 400px) { /* Resolution d'une petite fenêtre / petit écran */
-  .row, .navbar {
-    flex-direction: column;
-  }
-  .footer h3, .footer h2, .deroulant, .Edition, .header p, .main h1 {
-    font-size: 16px;
-  }
-  .main p {
-    font-size: 12px;
   }
 }
 /*********************/
