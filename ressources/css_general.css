@@ -13,7 +13,7 @@
 /* Body */
 /*********/
 body {
-  font-family: Calibri, Arial;
+  font-family: Calibri, Arial, sans-serif;
   margin: 0;
 }
 /*********/
@@ -83,9 +83,13 @@ body {
 
 .navbar a {
   color: black;
-  padding: 12px 36px;
-  text-decoration: none;
   text-align: center;
+  font-weight: bold;
+  font-size: 18px;
+  padding: 18px 40px;
+  text-align: center;
+  margin-top: 0px auto;
+  text-decoration: none;
   display: block;
 }
 .navbar hr {
@@ -124,15 +128,18 @@ body {
 .navbar ul li{
   float: left;
   width: 100%;
-  text-align: left;
   position: relative;
 }
 .sous a{
   padding: 10px;
+  text-align: center;
+  font-size: 16px;
+  font-weight: normal;
 }
 .deroulant > a::after{
-  content:" ▼ ";
-  font-size: 18px;
+  content:"  ▼  ";
+  font-size: 14px;
+  font-weight: bold;
 }
 /***********************/
 /***********************/
