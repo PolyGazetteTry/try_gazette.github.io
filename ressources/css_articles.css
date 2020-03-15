@@ -19,8 +19,9 @@
   text-decoration: none;
   text-align: center;
   vertical-align : middle;
-  padding: 4px 1.5px;
-  max-width: 49%;
+  padding: 2px;
+  max-width: 50%;
+  margin: 0 auto;
 }
 .mainMenuArticle a:hover {
   background-color: #ddd;
@@ -118,7 +119,7 @@
   .navbar {
     position: sticky;
   }
-  .LeftRow {
+  .left {
     align-items: center;
   }
   .mainArticle {
