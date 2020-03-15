@@ -10,44 +10,41 @@
 /*************************/
 .mainMenuArticle {
   background-color: #004875;
-  text-align: justify;
   display: flex;
   flex-wrap: wrap;
+  padding: 20px;
 }
 .mainMenuArticle a {
   color: black;
   text-decoration: none;
-  text-align: center;
   vertical-align : middle;
-  padding: 2px;
   max-width: 50%;
+  padding: 10px 10px;
   margin: 0 auto;
 }
 .mainMenuArticle a:hover {
+  padding: 1px;
   background-color: #ddd;
-  color: black;
 }
 .Article {
   text-align: justify;
   background-color: #f1f1f1;
   display: flex;
+  padding: 2px;
   height: 100%;
 }
 /*************************/
 .left {
   text-align: center;
   background-color: #f1f1f1;
-  float: left;
-  padding: 5px;
+  float: middle;
+  padding: 10px;
   flex: 25%;
 }
 .left img {
   max-width: 100%;
   height: auto;
   vertical-align: middle;
-}
-.left h3 {
-  font-size: 20px;
 }
 .right {
   background-color: #f1f1f1;
@@ -60,11 +57,12 @@
 .upRight{
   height: 20%;
   text-align: center;
+  padding: 1px 10px;
 }
 .downRight{
   height: 80%;
-  padding-right: 15px;
-  padding-left: 15px;
+  padding-right: 10px;
+  padding-left: 5px;
 }
 /*************************/
 /*************************/
@@ -120,7 +118,6 @@
     position: sticky;
   }
   .left {
-    align-items: center;
   }
   .mainArticle {
     padding: 20px;
