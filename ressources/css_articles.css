@@ -20,7 +20,7 @@
   vertical-align : middle;
 }
 .mainMenuArticle a:hover {
-  padding: 1px;
+  padding: 2px;
   background-color: #ddd;
 }
 .Article {
