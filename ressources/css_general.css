@@ -33,39 +33,40 @@ body {
   margin: auto;
   padding: 0px 0px;
 }
-.titre h1{
+.titre h1 {
   text-align: center;
   margin: auto;
   margin-top: 36px;
   font-size: 60px;
-  flex: 60%;
+  flex: 56%;
   font-family: Arno Pro, Tribun ADF Std, serif;
   text-shadow: black 0.1em 0.1em 0.1em;
 }
+.titre p {
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+}
 .LogoPolytech {
   float: left;
-  flex: 20%;
+  flex: 22%;
   margin: auto;
 }
 .LogoPolytech img{
-  max-width: 70%;
-  max-height: 70%;
   vertical-align: middle;
   float: left;
-  margin-left: 15px;
+  margin-left: 8px;
 }
 
 .LogoAlligator {
   float: right;
-  flex: 20%;
+  flex: 22%;
   margin: auto;
 }
 .LogoAlligator img{
-  max-width: 70%;
-  max-height: 70%;
   vertical-align: middle;
   float: right;
-  margin-right: 30px;
+  margin-right: 20px;
 }
 /**********/
 /**********/
@@ -195,12 +196,31 @@ body {
     flex-direction: column;
   }
   .titre h1 {
-    font-size: 30px;
+    font-size: 20px;
+  }
+  .titre p {
+    font-size: 12px;
+  }
+  .LogoAlligator img{
+    max-width: 75%;
+    max-height: 75%;
+  }
+  .LogoPolytech img{
+    max-width: 85%;
+    max-height: 85%;
   }
 }
 @media screen and (min-width: 860px){ /* Resolution d'une fenêtre sur un PC*/
   .navbar {
     position: sticky;
+  }
+  .LogoAlligator img{
+    max-width: 60%;
+    max-height: 60%;
+  }
+  .LogoPolytech img{
+    max-width: 70%;
+    max-height: 70%;
   }
 }
 /*********************/

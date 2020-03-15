@@ -48,16 +48,16 @@
   float: right;
   padding: 5px;
   flex: 75%;
-  display: flex;
+  /*display: flex;*/
   flex-direction: column;
 }
 .upRight{
-  height: 20%;
+  display: 20%;
   text-align: center;
   padding: 1px 10px;
 }
 .downRight{
-  height: 80%;
+  display: 80%;
   padding-right: 10px;
   padding-left: 5px;
 }
@@ -91,7 +91,7 @@
 /*********************/
 /* Responsive layout */
 /*********************/
-@media screen and (max-width: 900px) { /* Resolution d'un  portable*/
+@media screen and (max-width: 860px) { /* Resolution d'un  portable*/
   .row, .navbar {
     flex-direction: column;
   }
@@ -110,7 +110,7 @@
     padding: 4px 5px;
   }
 }
-@media screen and (min-width: 900px){ /* Resolution d'une fenêtre sur un PC*/
+@media screen and (min-width: 860px){ /* Resolution d'une fenêtre sur un PC*/
   .navbar {
     position: sticky;
   }
