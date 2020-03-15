@@ -87,8 +87,6 @@ body {
   font-weight: bold;
   font-size: 18px;
   padding: 18px 40px;
-  text-align: center;
-  margin-top: 0px auto;
   text-decoration: none;
   display: block;
 }
@@ -115,7 +113,7 @@ body {
   background-color: #e8947d;
   position: absolute;
   width: 100%;
-  z-index: 1000;
+  z-index: 1;
 }
 .navbar > ul li:hover .sous{
   display: block;
@@ -132,7 +130,6 @@ body {
 }
 .sous a{
   padding: 10px;
-  text-align: center;
   font-size: 16px;
   font-weight: normal;
 }

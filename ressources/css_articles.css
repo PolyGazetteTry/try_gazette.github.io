@@ -21,33 +21,29 @@
 }
 .mainMenuArticle a:hover {
   padding: 2px;
-  background-color: #ddd;
+  background-color: #fff;
 }
 .Article {
   text-align: justify;
-  background-color: #f1f1f1;
   display: flex;
   padding: 2px;
   height: 100%;
 }
 /*************************/
 .left {
-  text-align: center;
   background-color: #f1f1f1;
-  float: middle;
   padding: 10px;
-  flex: 25%;
+  flex: 30%;
 }
 .left img {
   max-width: 100%;
   height: auto;
-  vertical-align: middle;
 }
 .right {
   background-color: #f1f1f1;
   float: right;
   padding: 5px;
-  flex: 75%;
+  flex: 70%;
   /*display: flex;*/
   flex-direction: column;
 }
@@ -72,7 +68,6 @@
 /********************/
 .mainArticle {
   background-color: #004875;
-  text-align: justify;
 }
 .FullArticle {
   text-align: justify;
