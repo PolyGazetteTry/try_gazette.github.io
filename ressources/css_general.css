@@ -143,7 +143,7 @@ body {
 /***********************/
 /***********************/
 
-/*Simple symbole "NEW"*/
+/*Simple symbole "NEW" */
 .plop_new {
   text-shadow: black 0.01em 0.05em 0.05em;
   color: red;
@@ -159,15 +159,12 @@ body {
 /* Footer */
 /**********/
 .footer {
-  padding: 2px;
   text-align: center;
   background: #333;
-  color:  gray;
+  color: gray;
   position: absolute;
   width: 100%;
   left: 0;
-  margin-top: 0;
-  margin-bottom: 0;
 }
 
 .footer h2 {
