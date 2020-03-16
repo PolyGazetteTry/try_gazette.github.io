@@ -54,20 +54,17 @@ body {
   margin: auto;
 }
 .LogoPolytech img{
-  vertical-align: middle;
   float: left;
   margin-left: 8px;
 }
-
 .LogoAlligator {
   float: right;
   flex: 22%;
   margin: auto;
 }
 .LogoAlligator img{
-  vertical-align: middle;
   float: right;
-  margin-right: 20px;
+  margin-right: 28px;
 }
 /**********/
 /**********/

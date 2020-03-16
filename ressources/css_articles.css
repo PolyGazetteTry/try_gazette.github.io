@@ -87,6 +87,9 @@
 }
 .FullArticle img {
   max-width: 100%;
+  display:block; /* Permet de centrer l'image (le transform en un 'block') */
+  margin-left:auto;
+  margin-right:auto;
   height: 22%;
   width: 22%;
 }
