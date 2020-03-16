@@ -17,7 +17,7 @@
   color: black;
   text-decoration: none;
   display: block;
-  padding: 4px 2px;
+  padding: 2px 2px;
 }
 .mainEdition a:hover {
   background-color: #fff;
@@ -34,6 +34,11 @@
   background-color: #EFEFEF;
   padding: 5px;
   flex: 15%;
+  display:block; /* Permet de centrer l'image (le transform en un 'block') */
+  margin-left:auto;
+  margin-right:auto;
+  margin-top: auto;
+  margin-bottom: auto;
 }
 .left img {
   max-width: 100%;
@@ -62,10 +67,10 @@
 /*********************/
 /* Responsive layout */
 /*********************/
-@media screen and (max-width: 780px) { /* Resolution d'un  portable / tablette */
+@media screen and (max-width: 760px) { /* Resolution d'un  portable / tablette */
 
 }
-@media screen and (min-width: 780px){ /* Resolution d'une fenêtre sur un PC*/
+@media screen and (min-width: 760px){ /* Resolution d'une fenêtre sur un PC*/
 
 }
 /*********************/

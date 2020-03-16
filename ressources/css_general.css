@@ -185,26 +185,27 @@ body {
 /*********************/
 /* Responsive layout */
 /*********************/
-@media screen and (max-width: 780px) { /* Resolution d'un  portable / tablette */
+@media screen and (max-width: 760px) { /* Resolution d'un  portable / tablette */
   .row, .navbar {
     flex-direction: column;
   }
   .titre h1 {
-    font-size: 20px;
+    font-size: 27px;
   }
   .titre p {
-    font-size: 12px;
-  }
-  .LogoAlligator img{
-    max-width: 75%;
-    max-height: 75%;
+    font-size: 13px;
   }
   .LogoPolytech img{
+    max-width: 95%;
+    max-height: 95%;
+  }
+  .LogoAlligator img{
     max-width: 85%;
     max-height: 85%;
+    margin-right: 14px;
   }
 }
-@media screen and (min-width: 780px){ /* Resolution d'une fenêtre sur un PC*/
+@media screen and (min-width: 760px){ /* Resolution d'une fenêtre sur un PC*/
   .navbar {
     position: sticky;
   }

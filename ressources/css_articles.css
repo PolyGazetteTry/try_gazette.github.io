@@ -17,7 +17,6 @@
 .mainMenuArticle a {
   color: black;
   text-decoration: none;
-  vertical-align : middle;
 }
 .mainMenuArticle a:hover {
   padding: 2px;
@@ -25,19 +24,23 @@
 }
 .Article {
   text-align: justify;
+  background-color: #EFEFEF;
+  padding: 2px 3px;
   display: flex;
-  padding: 2px;
-  height: 100%;
 }
 /*************************/
 .left {
-  background-color: #f1f1f1;
-  padding: 10px;
+  background-color: #EFEFEF;
+  padding: 5px;
   flex: 30%;
+  display:block; /* Permet de centrer l'image (le transform en un 'block') */
+  margin-left:auto;
+  margin-right:auto;
+  margin-top: auto;
+  margin-bottom: auto;
 }
 .left img {
   max-width: 100%;
-  height: auto;
 }
 .right {
   background-color: #f1f1f1;
@@ -109,7 +112,7 @@
 /*********************/
 /* Responsive layout */
 /*********************/
-@media screen and (max-width: 780px) { /* Resolution d'un  portable / tablette */
+@media screen and (max-width: 760px) { /* Resolution d'un  portable / tablette */
   .row, .navbar {
     flex-direction: column;
   }
@@ -128,7 +131,7 @@
     padding: 4px 5px;
   }
 }
-@media screen and (min-width: 780px){ /* Resolution d'une fenêtre sur un PC*/
+@media screen and (min-width: 760px){ /* Resolution d'une fenêtre sur un PC*/
   .navbar {
     position: sticky;
   }
