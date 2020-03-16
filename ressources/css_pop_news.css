@@ -59,41 +59,14 @@
 /*************************************/
 /*************************************/
 
-/*************************/
-/*   Editions completes  */
-/*************************/
-.FullEdition {
-  text-align: justify;
-  background-color: #f1f1f1;
-  padding: 10px 10px;
-}
-.FullEdition hr {
-  color: #004875;
-  background-color: #004875;
-  height: 2px;
-  border: 0;
-  margin-bottom: 10px;
-  margin-left: 24px;
-  margin-right: 24px;
-}
-/*************************/
-/*************************/
-
 /*********************/
 /* Responsive layout */
 /*********************/
 @media screen and (max-width: 780px) { /* Resolution d'un  portable / tablette */
-  .row, .navbar {
-    flex-direction: column;
-  }
-  .titre h1 {
-    font-size: 30px;
-  }
+
 }
 @media screen and (min-width: 780px){ /* Resolution d'une fenêtre sur un PC*/
-  .navbar {
-    position: sticky;
-  }
+
 }
 /*********************/
 /*********************/
