@@ -188,7 +188,7 @@ body {
 /*********************/
 /* Responsive layout */
 /*********************/
-@media screen and (max-width: 900px) { /* Resolution d'un  portable*/
+@media screen and (max-width: 780px) { /* Resolution d'un  portable / tablette */
   .row, .navbar {
     flex-direction: column;
   }
@@ -207,7 +207,7 @@ body {
     max-height: 85%;
   }
 }
-@media screen and (min-width: 900px){ /* Resolution d'une fenêtre sur un PC*/
+@media screen and (min-width: 780px){ /* Resolution d'une fenêtre sur un PC*/
   .navbar {
     position: sticky;
   }
