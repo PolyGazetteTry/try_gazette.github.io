@@ -33,7 +33,7 @@
 .left {
   background-color: #EFEFEF;
   padding: 5px;
-  flex: 30%;
+  flex: 15%;
 }
 .left img {
   max-width: 100%;
@@ -42,7 +42,7 @@
   background-color: #EFEFEF;
   float: right;
   padding: 5px;
-  flex: 70%;
+  flex: 85%;
   flex-direction: column;
 }
 .upRight{
