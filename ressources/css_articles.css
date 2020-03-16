@@ -19,14 +19,15 @@
   text-decoration: none;
 }
 .mainMenuArticle a:hover {
-  padding: 2px;
-  background-color: #fff;
+  padding: 1px;
+  background-color: #EFEFEF;
 }
 .Article {
   text-align: justify;
   background-color: #EFEFEF;
-  padding: 2px 3px;
+  padding: 1px 3px;
   display: flex;
+  height: 100%;
 }
 /*************************/
 .left {
