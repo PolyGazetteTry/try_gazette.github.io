@@ -37,7 +37,7 @@ body {
   text-align: center;
   margin: auto;
   margin-top: 36px;
-  font-size: 60px;
+  font-size: 72px;
   flex: 56%;
   font-family: Arno Pro, Tribun ADF Std, serif;
   text-shadow: black 0.1em 0.1em 0.1em;
@@ -121,7 +121,6 @@ body {
   padding: 0px;
 }
 .navbar ul li{
-  float: left;
   width: 100%;
   position: relative;
 }
@@ -133,7 +132,6 @@ body {
 .deroulant > a::after{
   content:"  ▼  ";
   font-size: 14px;
-  font-weight: bold;
 }
 /***********************/
 /***********************/

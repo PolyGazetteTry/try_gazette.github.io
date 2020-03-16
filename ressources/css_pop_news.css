@@ -25,13 +25,12 @@
 }
 .Edition {
   text-align: justify;
-  background-color: #EFEFEF;
+  background-color: #FDF5E6;
   padding: 2px 3px;
   display: flex;
 }
 /*************************************/
 .left {
-  background-color: #EFEFEF;
   padding: 5px;
   flex: 15%;
   display:block; /* Permet de centrer l'image (le transform en un 'block') */
@@ -41,7 +40,6 @@
   max-width: 100%;
 }
 .right {
-  background-color: #EFEFEF;
   float: right;
   padding: 5px;
   flex: 85%;
