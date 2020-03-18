@@ -158,14 +158,14 @@ body {
   color: white;
   text-decoration: underline;
   margin: 15px auto;
-  font-size: 26px;
+  font-size: 27px;
 }
 .footer h4 { /* mail*/
   color: white;
   text-decoration: none;
   font-weight: lighter;
   margin: 0 auto;
-  font-size: 18px;
+  font-size: 21px;
 }
 .footer a { /* Soulignement du mailto */
   text-decoration: none;
@@ -173,11 +173,11 @@ body {
 .footer h5 { /* texte mis en valeur */
   color: white;
   margin: 10px auto;
-  font-size: 16px;
+  font-size: 18px;
 }
 .footer p { /* texte lambda */
   color: #C8C8C8;
-  font-size: 14px;
+  font-size: 15px;
   margin: 2px auto;
 }
 .footer hr { /* Barre horizontalle séparatrice */
@@ -195,13 +195,22 @@ body {
   width: 3%;
   margin: 10px 16px;
 }
+.footer p img {
+  vertical-align: middle;
+  min-width: 1.8%;
+  width: 1.8%;
+  display: inline-block flex; /* Permet de centrer l'image (le transform en un 'block') */
+  margin: auto;
+  margin-left: 5px;
+  margin-bottom: 5px;
+}
 /**********/
 /**********/
 
 /*********************/
 /* Responsive layout */
 /*********************/
-@media screen and (max-width: 760px) { /* Resolution d'un  portable / tablette */
+@media screen and (max-width: 760px) { /* Resolution d'un  portable  */
   .row, .navbar {
     flex-direction: column;
   }
@@ -220,8 +229,14 @@ body {
     max-height: 85%;
     margin-right: 14px;
   }
+  .footer p img {
+    max-width: 100%;
+    min-width: 2%;
+    height: 2%;
+    width: 2%;
+  }
 }
-@media screen and (min-width: 760px){ /* Resolution d'une fenêtre sur un PC*/
+@media screen and (min-width: 760px){ /* Resolution d'une fenêtre sur un PC / tablette */
   .navbar {
     position: sticky;
   }
