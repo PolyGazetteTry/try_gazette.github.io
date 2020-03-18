@@ -44,6 +44,14 @@ body {
   font-size: 18.2px;
   text-shadow: 0.01em 0em 0.001em;
 }
+.titre span {
+  color: #C8C8C8;
+  font-size: 15px;
+  letter-spacing: 0.137em;
+  font-weight: 100;
+  font-style: italic;
+  padding-bottom: 10px;
+}
 .LogoPolytech {
   float: left;
   flex: 20%;
@@ -70,7 +78,7 @@ body {
 /***********************/
 .navbar {
   display: flex;
-  background-color: #e8947d;
+  background-color: #e8947d; /* Pantone 486C */
   width: 100%;
   top: 0;
 }
@@ -165,7 +173,7 @@ body {
   text-decoration: none;
   font-weight: lighter;
   margin: 0 auto;
-  font-size: 21px;
+  font-size: 20px;
 }
 .footer a { /* Soulignement du mailto */
   text-decoration: none;
@@ -197,9 +205,7 @@ body {
 }
 .footer p img {
   vertical-align: middle;
-  min-width: 1.8%;
-  width: 1.8%;
-  display: inline-block flex; /* Permet de centrer l'image (le transform en un 'block') */
+  width: 2.7%;
   margin: auto;
   margin-left: 5px;
   margin-bottom: 5px;
@@ -218,7 +224,10 @@ body {
     font-size: 48px;
   }
   .titre p {
-    font-size: 13px;
+    font-size: 14px;
+  }
+  .titre span {
+    font-size: 11px;
   }
   .LogoPolytech img{
     max-width: 95%;
@@ -229,11 +238,18 @@ body {
     max-height: 85%;
     margin-right: 14px;
   }
+  .footer h4 {
+    font-size: 16px;
+  }
+  .footer h5 {
+    font-size: 15px;
+  }
+  .footer p {
+    font-size: 13.5px;
+  }
   .footer p img {
-    max-width: 100%;
     min-width: 2%;
-    height: 2%;
-    width: 2%;
+    width: 4%;
   }
 }
 @media screen and (min-width: 760px){ /* Resolution d'une fenêtre sur un PC / tablette */
