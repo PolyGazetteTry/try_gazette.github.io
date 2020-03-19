@@ -70,15 +70,16 @@
 }
 .FullArticle {
   background-color: #FDF5E6;
-  padding: 10px 10px;
+  padding: 14px 30px;
 }
 .FullArticle p {
   text-align: justify;
+  text-indent: 30px;
 }
 .FullArticle h2 {
   text-align: center;
   font-size: 36px;
-  margin: 10px;
+  margin: 12px;
 }
 .FullArticle h4 {
   text-align: center;
@@ -118,6 +119,9 @@
   }
   .Article {
     padding: 4px 5px;
+  }
+  .FullArticle {
+    padding: 12px 20px;
   }
 }
 @media screen and (min-width: 760px){ /* Resolution d'une fenêtre sur un PC  / tablette  */
