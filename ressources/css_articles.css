@@ -107,7 +107,7 @@
 /*********************/
 /* Responsive layout */
 /*********************/
-@media screen and (max-width: 760px) { /* Resolution d'un  portable / tablette */
+@media screen and (max-width: 760px) { /* Resolution d'un  portable */
   .mainArticle {
     padding-left: 20px;
     padding-right: 20px;
@@ -120,7 +120,7 @@
     padding: 4px 5px;
   }
 }
-@media screen and (min-width: 760px){ /* Resolution d'une fenêtre sur un PC*/
+@media screen and (min-width: 760px){ /* Resolution d'une fenêtre sur un PC  / tablette  */
   .left {
   }
   .mainArticle {

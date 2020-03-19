@@ -91,6 +91,9 @@ body {
   text-decoration: none;
   display: block;
 }
+.navbar a:hover {
+  background-color: #9C5744;
+}
 .navbar hr {
   color: #9C5744;
   background-color: #9C5744;
@@ -98,10 +101,6 @@ body {
   border: 0;
   margin-top: 0px;
   margin-bottom: 0px;
-}
-.navbar a:hover {
-  background-color: #9C5744;
-  color: #E8B9AC;
 }
 /***********************/
 /***********************/

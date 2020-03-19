@@ -57,10 +57,10 @@
 /*********************/
 /* Responsive layout */
 /*********************/
-@media screen and (max-width: 760px) { /* Resolution d'un  portable / tablette */
+@media screen and (max-width: 760px) { /* Resolution d'un  portable */
 
 }
-@media screen and (min-width: 760px){ /* Resolution d'une fenêtre sur un PC*/
+@media screen and (min-width: 760px){ /* Resolution d'une fenêtre sur un PC / tablette */
 
 }
 /*********************/
