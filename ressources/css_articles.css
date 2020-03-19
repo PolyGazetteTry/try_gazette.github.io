@@ -13,6 +13,7 @@
 }
 .mainMenuArticle a {
   color: black;
+  display: block;
   text-decoration: none;
   padding: 10px 10px;
 }
