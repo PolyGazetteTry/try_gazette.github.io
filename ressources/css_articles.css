@@ -91,6 +91,8 @@
   display: block; /* Permet de centrer l'image (le transform en un 'block') */
   margin-left: auto;
   margin-right: auto;
+  margin-top: 16px;
+  margin-bottom: 10px;
   height: 22%;
   width: 22%;
 }
@@ -112,6 +114,16 @@ table.img_inligne {
 table.img_inligne img {
   width: 53%;
   margin-top: 12px;
+}
+.legende_photo {
+  margin-top: 5px;
+  margin-bottom: 12px;
+  text-indent: none;
+  font-size: 11px;
+  text-align: center;
+  font-style: italic;
+  font-weight: 200;
+  color: #4D4D4D;
 }
 /********************/
 /********************/
