@@ -122,26 +122,6 @@ table.img_inligne img {
   height: 48%;
   margin-top: 12px;
 }
-.legende_photo {
-  margin-top: 5px;
-  margin-bottom: 12px;
-  text-indent: none;
-  font-size: 13.5px;
-  text-align: center;
-  font-style: italic;
-  font-weight: 200;
-  color: #4D4D4D;
-}
-.signature {
-  padding-top: 10px;
-  padding-bottom: 11px;
-  padding-right: 4px;
-  font-size: 16px;
-  float: right;
-  font-style: italic;
-  font-weight: bold;
-  color: black;
-}
 /********************/
 /********************/
 
