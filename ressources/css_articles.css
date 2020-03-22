@@ -117,7 +117,8 @@ table.img_inligne {
   color: #4D4D4D;
 }
 table.img_inligne img {
-  width: 53%;
+  width: 50%;
+  height: 50%;
   margin-top: 12px;
 }
 .legende_photo {
