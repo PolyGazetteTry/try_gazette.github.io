@@ -98,7 +98,6 @@
   margin-right: auto;
   margin-top: 16px;
   margin-bottom: 10px;
-  height: 48%;
   width: 22%;
 }
 .FullArticle hr { /* Barre horizontalle séparatrice */
@@ -144,7 +143,6 @@ table.img_inligne img {
     padding: 12px 20px;
   }
   .FullArticle img {
-    height: 65%;
     width: 65%;
   }
   table.img_inligne img {
