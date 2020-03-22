@@ -75,6 +75,7 @@
 .FullArticle p {
   text-align: justify;
   text-indent: 30px;
+  line-height: 140%;
   margin: 4px auto;
 }
 .FullArticle p a {
@@ -97,7 +98,7 @@
   margin-right: auto;
   margin-top: 16px;
   margin-bottom: 10px;
-  height: 22%;
+  height: 48%;
   width: 22%;
 }
 .FullArticle hr { /* Barre horizontalle séparatrice */
@@ -117,8 +118,8 @@ table.img_inligne {
   color: #4D4D4D;
 }
 table.img_inligne img {
-  width: 50%;
-  height: 50%;
+  width: 48%;
+  height: 48%;
   margin-top: 12px;
 }
 .legende_photo {
@@ -130,6 +131,16 @@ table.img_inligne img {
   font-style: italic;
   font-weight: 200;
   color: #4D4D4D;
+}
+.signature {
+  padding-top: 10px;
+  padding-bottom: 11px;
+  padding-right: 4px;
+  font-size: 16px;
+  float: right;
+  font-style: italic;
+  font-weight: bold;
+  color: black;
 }
 /********************/
 /********************/
@@ -155,6 +166,10 @@ table.img_inligne img {
   .FullArticle img {
     height: 50%;
     width: 50%;
+  }
+  table.img_inligne img {
+    width: 80%;
+    height: 80%;
   }
 }
 @media screen and (min-width: 760px){ /* Resolution d'une fenêtre sur un PC  / tablette  */
