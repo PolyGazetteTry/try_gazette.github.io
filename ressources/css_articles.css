@@ -77,6 +77,11 @@
   text-indent: 30px;
   margin: 4px auto;
 }
+.FullArticle p a {
+  text-decoration: underline;
+  color: inherit;
+  font-weight: 600;
+}
 .FullArticle h2 {
   text-align: center;
   font-size: 36px;
@@ -87,7 +92,6 @@
   font-size: 20px;
 }
 .FullArticle img {
-  max-width: 100%;
   display: block; /* Permet de centrer l'image (le transform en un 'block') */
   margin-left: auto;
   margin-right: auto;
@@ -109,6 +113,7 @@ table.img_inligne {
   text-align: center;
   font-style: italic;
   font-weight: 200;
+  font-size: 13.5px;
   color: #4D4D4D;
 }
 table.img_inligne img {
@@ -119,7 +124,7 @@ table.img_inligne img {
   margin-top: 5px;
   margin-bottom: 12px;
   text-indent: none;
-  font-size: 11px;
+  font-size: 13.5px;
   text-align: center;
   font-style: italic;
   font-weight: 200;
@@ -145,6 +150,10 @@ table.img_inligne img {
   }
   .FullArticle {
     padding: 12px 20px;
+  }
+  .FullArticle img {
+    height: 50%;
+    width: 50%;
   }
 }
 @media screen and (min-width: 760px){ /* Resolution d'une fenêtre sur un PC  / tablette  */
