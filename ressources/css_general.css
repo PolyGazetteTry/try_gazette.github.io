@@ -115,7 +115,6 @@ body {
   background-color: #e8947d;
   position: absolute;
   width: 100%;
-  z-index: 1;
 }
 .navbar > ul li:hover .sous{
   display: block;
@@ -184,9 +183,12 @@ body {
 .footer {
   text-align: center;
   background: #333;
-  position: absolute;
   width: 100%;
-  padding: 1px 16px;
+  padding: 0px 16px;
+  border-top-width: 15px; /* Permet d'avoir un espace entre les blocs et le footer */
+  border-top-style: solid;
+  border-top-color: #004875;
+  z-index: 1;
 }
 .footer h2 { /* Gros titre du footer */
   color: white;
@@ -256,11 +258,11 @@ body {
   }
   .LogoPolytech img{
     max-width: 130%;
-    margin-left: 5.8px;
+    margin-left: 0.5px;
   }
   .LogoAlligator img{
     max-width: 120%;
-    margin-right: 10px;
+    margin-right: 5.6px;
   }
   .footer h4 {
     font-size: 16px;
@@ -284,7 +286,7 @@ body {
 @media screen and (min-width: 760px){ /* Resolution d'une fenêtre sur un PC / tablette */
   .navbar {
     position: sticky;
-    z-index: 1;
+    z-index: 2;
   }
   .LogoAlligator img{
     max-width: 60%;
