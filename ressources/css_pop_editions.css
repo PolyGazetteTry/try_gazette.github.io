@@ -4,9 +4,50 @@
 /* PERCEREAU Lucas                  */
 /* LÉPINE Thomas                    */
 /************************************/
+/*****************************************/
+/* Présentation Editions depuis la menu */
+/*****************************************/
+.Pop_New_MenuView {
+  background-color: #004875;
+  padding: 0px 20px;
+}
+.Pop_New_MenuView a {
+  text-decoration: none;
+  display: block;
+  padding: 10px 10px;
+}
+.Pop_New_MenuView a:hover {
+  background-color: #FDF5E6;
+}
+.Pop_New_MenuView h2 {
+  text-align: center;
+  text-decoration: underline;
+  text-shadow: 0.01em 0em 0.01em;
+  font-size: 30px;
+}
+.Pop_New_MenuView img {
+  max-width: 100%;
+  height: 26%;
+  width: 26%;
+  display: block; /* Permet de centrer l'image (le transform en un 'block') */
+  margin: auto;
+}
+.Pop_New_MenuView p {
+  text-align: justify;
+  font-size: 17.5px;
+  padding-bottom: 5px;
+}
+.Edition_MenuView {
+  color: black; /* Couleur du texte */
+  background-color: #FDF5E6;
+  padding: 2px 20px;
+}
+/*************************************/
+/*************************************/
+/*************************************/
 
 /*************************/
-/* Présentation Editions */
+/* Editions les différentes rubriques */
 /*************************/
 .EditionBlockWraped {
   background-color: #004875;
