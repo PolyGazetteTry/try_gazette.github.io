@@ -85,7 +85,6 @@
 .FullEdition {
   background-color: #FDF5E6;
   padding: 10px 10px;
-  display: block;
   height: 100%;
 }
 .FullEdition p {
@@ -93,9 +92,9 @@
 }
 .FullEdition h2 {
   text-align: center;
-  text-decoration: underline;
+  /*text-decoration: underline;*/
   font-size: 26px;
-  margin: 10px 4px;
+  margin: 20px 0px;
 }
 .FullEdition h4 {
   text-align: center;
@@ -104,7 +103,7 @@
 .FullEdition img {
   display:block; /* Permet de centrer l'image (le transform en un 'block') */
   margin: auto;
-  width: 40%;
+  width: 100%;
 }
 .FullEdition hr {
   color: #004875;
@@ -144,16 +143,6 @@ table.img_inligne img {
   flex-direction: column;
   display:block; /* Permet de centrer le 'block' */
   margin: auto;
-}
-.upRight{
-  display: 20%;
-  text-align: center;
-  padding: 1px 10px;
-  text-shadow: 0.01em 0em 0.01em;
-  font-size: 20px;
-  text-decoration:underline;
-}
-.downRight{
   text-align: justify;
   display: 80%;
   padding-right: 10px;
