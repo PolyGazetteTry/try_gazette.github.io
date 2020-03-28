@@ -4,6 +4,7 @@
 /* PERCEREAU Lucas                  */
 /* LÉPINE Thomas                    */
 /************************************/
+
 /*****************************************/
 /* Présentation Editions depuis la menu */
 /*****************************************/
@@ -68,14 +69,6 @@
   background-color: #004875;
   padding: 10px 20px;
 }
-.EditionBig h2 {
-  text-align: center;
-  text-decoration: underline;
-  text-shadow: 0.01em 0em 0.01em;
-  font-size: 30px;
-}
-/*************************/
-
 /*************************/
 /*************************/
 
@@ -92,7 +85,6 @@
 }
 .FullEdition h2 {
   text-align: center;
-  /*text-decoration: underline;*/
   font-size: 26px;
   margin: 20px 0px;
 }
@@ -100,34 +92,34 @@
   text-align: center;
   font-size: 20px;
 }
-/*.FullEdition img {
-  display:block; /* Permet de centrer l'image (le transform en un 'block') */
-  /*margin: auto;
-  width: 60%;
-}*/
-img.img_article {
+img.img_article_Wraped {
   display:block; /* Permet de centrer l'image (le transform en un 'block') */
   margin: auto;
-  width: 60%;
+  width: 40%;
+}
+img.img_article_Big {
+  display:block; /* Permet de centrer l'image (le transform en un 'block') */
+  margin: auto;
+  width: 21%;
 }
 img.img_titre_popWraped {
   display:block;
   margin: auto;
+  padding: 1px 0px;
   width: 90%;
 }
 img.img_titre_popBig {
   display:block;
   margin: auto;
-  width: 90%;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  width: 50%;
 }
 .FullEdition hr {
-  color: #004875;
-  background-color: #004875;
+  /*background-color: #004875;*/
   height: 2px;
   border: 0;
-  margin-bottom: 10px;
-  margin-left: 24px;
-  margin-right: 24px;
+  margin: 8px 18px;
 }
 table.img_inligne {
   text-align: center;
@@ -140,28 +132,6 @@ table.img_inligne img {
   width: 48%;
   height: 48%;
   margin-top: 12px;
-}
-.left {
-  /*background-color: #FDF5E6;*/
-  padding: 5px;
-  flex: 35%;
-  display:block; /* Permet de centrer l'image (le transform en un 'block') */
-  margin: auto;
-}
-.left img {
-  max-width: 100%;
-}
-.right {
-  float: right;
-  padding: 5px;
-  flex: 65%;
-  flex-direction: column;
-  display:block; /* Permet de centrer le 'block' */
-  margin: auto;
-  text-align: justify;
-  display: 80%;
-  padding-right: 10px;
-  padding-left: 5px;
 }
 /*************************************/
 /*************************************/
@@ -186,18 +156,27 @@ table.img_inligne img {
     padding: 4px 5px;
   }
   .FullEdition {
-    padding: 12px 20px;
-  }
-  /*.FullEdition img {
-    width: 65%;
-  }*/
-  img.img_article {
-    width: 65%;
+    padding: 4.5px 15px;
   }
   table.img_inligne img {
     display: block;
     min-width: 98%;
     height: auto;
+  }
+  img.img_article_Wraped {
+    width: 65%;
+  }
+  img.img_article_Big {
+    width: 65%;
+  }
+  img.img_titre_popWraped {
+    width: 100%;
+  }
+  img.img_titre_popBig {
+    width: 100%;
+  }
+  .FullEdition hr {
+    margin: 6px 0px;
   }
 }
 @media screen and (min-width: 760px){ /* Resolution d'une fenêtre sur un PC  / tablette  */
