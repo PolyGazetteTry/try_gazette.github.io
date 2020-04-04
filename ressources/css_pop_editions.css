@@ -77,7 +77,7 @@
 /*************************/
 .FullEdition {
   background-color: #FDF5E6;
-  padding: 10px 10px;
+  padding: 10px 15px;
   padding-bottom: 2px;
   height: 100%;
 }
@@ -101,7 +101,7 @@
   margin-bottom: 20px;
 }
 .FullEdition video {
-    width: 98%;
+    width: 84%;
     padding: 15px 0px;
     margin: 0 auto;
     display: flex;
