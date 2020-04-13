@@ -91,6 +91,14 @@
   font-size: 26px;
   margin: 20px 0px;
 }
+.FullEdition h3 { /* Slogan des rubriques */
+  color: #444444;
+  text-align: center;
+  font-size: 18px;
+  margin: 16px 0px;
+  letter-spacing: 0.08em;
+  font-weight: lighter;
+}
 .FullEdition h5 { /* Filières horoscope */
   color: #191970;
   text-decoration: overline underline;
