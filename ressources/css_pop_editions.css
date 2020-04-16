@@ -134,7 +134,7 @@ img.img_titre_popBig {
   margin: auto;
   padding-top: 8px;
   padding-bottom: 8px;
-  width: 50%;
+  width: 60%;
 }
 .FullEdition hr {
   /*background-color: #004875;*/
@@ -144,12 +144,19 @@ img.img_titre_popBig {
 }
 table.img_inligne {
   text-align: center;
+}
+td.texte {
+  text-align: center;
+  padding: 5px 30px;
+}
+td.legende {
+  text-align: center;
   font-style: italic;
   font-weight: 200;
   font-size: 13.5px;
   color: #4D4D4D;
 }
-table.img_inligne img {
+table.img_inligne img{
   width: 48%;
   height: 48%;
   margin-top: 12px;
@@ -186,6 +193,9 @@ table.img_inligne img {
     display: block;
     min-width: 98%;
     height: auto;
+  }
+  td.texte {
+    padding: 5px 18px;
   }
   img.img_article_Wraped {
     width: 65%;

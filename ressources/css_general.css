@@ -185,7 +185,7 @@ body {
   background: #333;
   width: 100%;
   padding: 0px 16px;
-  border-top-width: 15px; /* Permet d'avoir un espace entre les blocs et le footer */
+  border-top-width: 10px; /* Permet d'avoir un espace entre les blocs et le footer */
   border-top-style: solid;
   border-top-color: #004875;
   z-index: 1;
