@@ -194,8 +194,8 @@ img.img_easter_egg {
     padding: 4.5px 15px;
   }
   table.img_inligne img {
-    display: block;
-    max-width: 30%;
+    text-align: center;
+    max-width: 40%;
     height: auto;
   }
   td.texte {
