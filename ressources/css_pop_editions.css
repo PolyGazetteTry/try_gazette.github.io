@@ -195,7 +195,7 @@ img.img_easter_egg {
   }
   table.img_inligne img {
     display: block;
-    min-width: 98%;
+    width: 40%;
     height: auto;
   }
   td.texte {
