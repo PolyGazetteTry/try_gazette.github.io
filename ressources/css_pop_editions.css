@@ -161,6 +161,10 @@ table.img_inligne img{
   height: 48%;
   margin-top: 12px;
 }
+img.img_easter_egg {
+  width: 10%;
+  margin: 0 auto;
+}
 /*************************************/
 /*************************************/
 /*************************************/
@@ -211,6 +215,9 @@ table.img_inligne img{
   }
   .FullEdition hr {
     margin: 6px 0px;
+  }
+  img.img_easter_egg {
+    width: 33%;
   }
 }
 @media screen and (min-width: 760px){ /* Resolution d'une fenêtre sur un PC  / tablette  */
