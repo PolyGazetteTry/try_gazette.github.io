@@ -166,8 +166,7 @@ td.legende {
   color: #4D4D4D;
 }
 table.img_inligne img{
-  width: 48%;
-  height: 48%;
+  width: 80%;
   margin-top: 12px;
 }
 img.img_easter_egg {
@@ -211,7 +210,7 @@ img.img_easter_egg {
   }
   table.img_inligne img {
     text-align: center;
-    max-width: 40%;
+    max-width: 98%;
     height: auto;
   }
   td.texte {
