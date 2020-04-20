@@ -53,7 +53,7 @@
 .EditionBlockWraped {
   background-color: #004875;
 }
-.EditionBlockWraped a {
+.EditionBlockWraped article {
   color: black;
   display: block;
   text-decoration: none;
@@ -86,10 +86,21 @@
   text-align: justify;
   margin: 4px auto;
 }
-.FullEdition h2 {
+p.link {
+  text-indent: inherit;
+  color: #666666;
+  padding-top: 6px;
+  padding-bottom: 14px;
+}
+p.link a{
+  text-decoration: underline;
+  color: #666666;
+}
+.FullEdition h2 { /* Sous partie rubrique */
   text-align: center;
+  text-decoration: underline;
   font-size: 26px;
-  margin: 14px 0px;
+  margin: 16px 0px;
   letter-spacing: 0.04em;
 }
 .FullEdition h3 { /* Slogan des rubriques */
@@ -99,6 +110,11 @@
   margin: 16px 0px;
   letter-spacing: 0.08em;
   font-weight: lighter;
+}
+.FullEdition h4 { /* Question titre */
+  font-size: 16px;
+  margin: 14px 0px;
+  letter-spacing: 0.04em;
 }
 .FullEdition h5 { /* Filières horoscope */
   color: #191970;
@@ -126,6 +142,7 @@ img.img_article_Wraped {
   display:block; /* Permet de centrer l'image (le transform en un 'block') */
   margin: auto;
   width: 60%;
+  padding: 6px 0px;
 }
 img.img_article_Big {
   display:block; /* Permet de centrer l'image (le transform en un 'block') */
@@ -153,6 +170,12 @@ img.img_titre_popBig {
 }
 table.img_inligne {
   text-align: center;
+  margin: 0 auto;
+}
+table.img_inligne img{
+  width: 80%;
+  padding-top: 12px;
+  margin: 0 auto;
 }
 td.texte {
   text-align: center;
@@ -164,10 +187,6 @@ td.legende {
   font-weight: 200;
   font-size: 13.5px;
   color: #4D4D4D;
-}
-table.img_inligne img{
-  width: 80%;
-  margin-top: 12px;
 }
 img.img_easter_egg {
   width: 10%;
@@ -196,7 +215,7 @@ img.img_easter_egg {
     padding-left: 10px;
     padding-right: 10px;
   }
-  .EditionBlockWraped a{
+  .EditionBlockWraped article{
     padding: 10px 5px;
   }
   .Edition {
@@ -210,7 +229,8 @@ img.img_easter_egg {
   }
   table.img_inligne img {
     text-align: center;
-    max-width: 98%;
+    padding: 0px 5px;
+    max-width: 95%;
     height: auto;
   }
   td.texte {
@@ -248,7 +268,7 @@ img.img_easter_egg {
     flex-wrap: wrap;
     display: flex;
   }
-  .EditionBlockWraped a {
+  .EditionBlockWraped article {
     max-width: 50%; /* Permet d'avoir 2 Editions sur la même ligne dans le menu */
     margin: 0 auto;
   }
