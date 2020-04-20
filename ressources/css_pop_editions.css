@@ -27,9 +27,7 @@
   font-size: 30px;
 }
 .Pop_New_MenuView img {
-  max-width: 100%;
-  height: 26%;
-  width: 26%;
+  width: 69%;
   display: block; /* Permet de centrer l'image (le transform en un 'block') */
   margin: auto;
 }
@@ -209,6 +207,9 @@ img.img_easter_egg {
 /* Responsive layout */
 /*********************/
 @media screen and (max-width: 760px) { /* Resolution d'un  portable */
+  .Pop_New_MenuView img {
+    width: 98%;
+  }
   .mainEdition {
     padding-left: 20px;
     padding-right: 20px;
